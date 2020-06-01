@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Online Forum - Create New Topic</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <h1><a href="#" class="navbar-brand">Forum</a></h1>
+        <form class="form-inline">
+            <input type="text" class="form-control mr-2 mb-2 mb-sm-0" placeholder="search">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container my-2">
+      <nav class="breadcrumb">
+        <a href="#" class="breadcrumb-item">Board Index</a>
+        <a href="#" class="breadcrumb-item">Forum Category</a>
+        <a href="#" class="breadcrumb-item">Forum Name</a>
+        <span class="breadcrumb-item active">Create New Topic</span>
+      </nav>
+      <div class="row">
+        <div class="col-12">
+          <h4 class="text-white bg-info mb-3 p-4 rounded">Create New Topic</h4>
+          <form class="mb-3">
+              <div class="form-group">
+                <label for="topic">Topic:</label>
+                <input type="text" class="form-control" id="topic" placeholder="Give your topic a title." required>
+              </div>
+            <div class="form-group">
+              <label for="comment">Comment:</label>
+              <textarea class="form-control" id="comment" rows="10" placeholder="Write your comment here." required></textarea>
+            </div>
+            <div class="form-group form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="formcheckbox" value="notification">
+              <label class="form-check-label" for="formcheckbox">Notify me upon replies.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Create topic</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+      </div> 
+    </div>
+   </div>
+
+    <footer class="small bg-dark text-white">
+      <div class="container py-3">
+        <ul class="list-inline mb-0 text-center">
+          <li class="list-inline-item">&copy;2017 web company, Inc.</li>
+          <li class="list-inline-item">All right reserved.</li>
+          <li class="list-inline-item"><a href="#">Terms of use and privacy policy.</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
